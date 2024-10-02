@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--------TITRE -------------------------->
+  <title>Eco By Naty</title>
+  <!------LINK CSS-------------------------->
+   <link rel="stylesheet" href="./CSS/style.css">
+  <!-------------------FONT AWSOME CDN ---------------------------------------->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <!-------------------BOOTSTRAP 4 CSS------------------------------------------------>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <!----------Viewport controle de mise en page sur navigateur mobile --------->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-------------Lire -->
+  <!----CDN Javascript JQUERY--------------------------------------------------->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <!--------------------------BOOTSTRAP JAVASCRIPT ------------------->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   <!---CDN Javascript poppser -------------------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <style>
+    body{
+      background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600;)
+    }
+  </style>
+  <style>
+    .navbar {
+      margin-bottom: 0;
+      background-color:gray;
+      border: 0;
+      font-size: 20px !important;
+      letter-spacing: 2px;
+      opacity: 0.9;
+    }
+    
+    /* Add a gray color to all navbar links */
+    .navbar li a, .navbar .navbar-brand {
+      color: #d5d5d5 !important;
+    }
+    
+    /* On hover, the links will turn white */
+    .navbar-nav li a:hover {
+      color: #fff !important;
+    }
+    
+    /* The active link */
+    .navbar-nav li.active a {
+      color: #fff !important;
+      background-color:darkgrey !important;
+    }
+    
+    /* Remove border color from the collapsible button */
+    .navbar-default .navbar-toggle {
+      border-color: transparent;
+    }
+    
+    /* Dropdown */
+    .open .dropdown-toggle {
+      color: #fff ;
+      background-color: #555 !important;
+    }
+    
+    /* Dropdown links */
+    .dropdown-menu li a {
+      color: #000 !important;
+    }
+    
+    /* On hover, the dropdown links will turn red */
+    .dropdown-menu li a:hover {
+      background-color: red !important;
+    }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+  <!---nav de bootstrap/navbar-dark/------------------------------------------------------------------------------->
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+    <div class="container"> <!----------------------------Container Nvabar------------------------------------------------------------------------------->  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="fas fa-bars fa-lg"></span>
+          </button>
+         <a class="navbar-brand" href="./couche-couche.html"><img src="https://medias.lespetitsculottes.com/themes/les-petits-culottes-v2/img/section-couches-on.svg" class="rounded float-left" height="50" width="60"></span>    </a>
+         <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active"><a class="nav-link" href="./couche-couche.html"><span class="fa fa-home fa-lg"></span> Acceuil</a></li>
+              <li class="nav-item"><a class="nav-link" href="./info.html"><span class="fa fa-info fa-lg"></span> Informations</a></li>
+              <li class="nav-item"><a class="nav-link" href="./contact.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+          </ul>
+          </div>
+      </div>
+  </nav><!------------------------ End Nav ---------------------------------------------------->
+  <div class="w3-container w3-center">
+  <br><br><br><br><br><br><br><br><img src="file://///srv-2019/dupouy$/sin/TP/Colone_Navbar_Caroussel/brbr(8).png" style="width:80%;max-width:900px">
+    <p><h1>Eco By Naty</h1><br><h3>Les couches ECO by Naty sont les seules couches écologiques qui empêchent la peau de votre bébé d'entrer en contact avec des matières plastiques.</h3></p>
+  </div>
+  <div class="card-body bodycard">
+    <!-------Button ------------------------------------>
+    <a href="./paiement.html" class="btn btn-primary">Voir plus</a>
+    <!----------------------------------------------->
+  </div>
+</body>
+</html>
